@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the accompanying manuscript when using these materials."
+type: software
+title: "Cross Gesture Transfer After Single Gesture Calibration in High Density Electromyography"
+authors:
+  - family-names: "Lu"
+    given-names: "Charles"
+repository-code: "https://github.com/Lu-Charles/bibe-single-gesture-transfer"
+url: "https://github.com/Lu-Charles/bibe-single-gesture-transfer"
+license: MIT

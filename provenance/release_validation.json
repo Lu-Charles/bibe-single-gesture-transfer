@@ -1,0 +1,29 @@
+{
+  "validated_utc": "2026-10-22T02:42:28.326098+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "original_analysis_passed": true,
+  "revision_analysis_passed": true,
+  "followup_analysis_passed": true,
+  "original_method_cases": 3840,
+  "control_records": 3392,
+  "followup_records": 288,
+  "scope": "Three scripts executed in bundled Python; no claim of complete raw-data reproduction",
+  "personal_absolute_path_scan_passed": true,
+  "optional_figure_generation_passed": true,
+  "repository_layout_validation": {
+    "validated_utc": "2026-10-22T17:40:15.831500+00:00",
+    "scripts": [
+      "scripts/reproduce_tables.py",
+      "scripts/analyze_predictions.py",
+      "scripts/check_followup.py",
+      "scripts/plot_figures.py"
+    ],
+    "all_passed": true,
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.1",
+    "numerical_records_unchanged": true,
+    "regenerated_pngs_pixel_identical": true
+  }
+}
