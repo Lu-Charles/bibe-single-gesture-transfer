@@ -1,0 +1,421 @@
+{
+  "search_pair_frozen": {
+    "participant_unseen": [
+      0.5,
+      0.041666666666666664,
+      0.5,
+      0.7777777777777777
+    ],
+    "mean": 0.45486111111111105
+  },
+  "controls": {
+    "resample_then_gain": {
+      "spatial_only": {
+        "case_changes_vs_original": {
+          "improved": 191,
+          "harmed": 405,
+          "tied": 44,
+          "denominator": 640,
+          "endpoint": "other-class trial accuracy; descriptive repeated cases"
+        },
+        "participants": [
+          {
+            "participant": 2,
+            "overall": 0.41388888888888886,
+            "unseen": 0.33095238095238094,
+            "delta_from_original": -0.15615079365079365,
+            "delta_from_frozen": -0.45515873015873015,
+            "negative_transfer": 0.95625
+          },
+          {
+            "participant": 3,
+            "overall": 0.37378472222222225,
+            "unseen": 0.28561507936507935,
+            "delta_from_original": -0.07738095238095237,
+            "delta_from_frozen": -0.29077380952380955,
+            "negative_transfer": 0.6
+          },
+          {
+            "participant": 4,
+            "overall": 0.44533730158730156,
+            "unseen": 0.3692181742254455,
+            "delta_from_original": -0.11731124562463802,
+            "delta_from_frozen": -0.1959751391302158,
+            "negative_transfer": 0.66875
+          },
+          {
+            "participant": 5,
+            "overall": 0.5092881944444445,
+            "unseen": 0.440079365079365,
+            "delta_from_original": -0.05406746031746031,
+            "delta_from_frozen": -0.06061507936507937,
+            "negative_transfer": 0.4625
+          }
+        ],
+        "overall": {
+          "mean": 0.43557477678571427,
+          "participant_bootstrap_95": [
+            0.391672867063492,
+            0.48543836805555557
+          ]
+        },
+        "unseen": {
+          "mean": 0.3564662499055677,
+          "participant_bootstrap_95": [
+            0.3065158530801709,
+            0.412797619047619
+          ]
+        },
+        "delta_from_original": {
+          "mean": -0.10122761299346109,
+          "participant_bootstrap_95": [
+            -0.13673101963771583,
+            -0.06572420634920634
+          ]
+        },
+        "delta_from_frozen": {
+          "mean": -0.2506306895444587,
+          "participant_bootstrap_95": [
+            -0.3903628324016016,
+            -0.11815476190476192
+          ]
+        },
+        "negative_transfer": {
+          "mean": 0.6718749999999999,
+          "participant_bootstrap_95": [
+            0.5140625,
+            0.8671875
+          ]
+        }
+      },
+      "spatial_gain": {
+        "case_changes_vs_original": {
+          "improved": 268,
+          "harmed": 344,
+          "tied": 28,
+          "denominator": 640,
+          "endpoint": "other-class trial accuracy; descriptive repeated cases"
+        },
+        "participants": [
+          {
+            "participant": 2,
+            "overall": 0.32960069444444445,
+            "unseen": 0.23442460317460317,
+            "delta_from_original": -0.14890873015873016,
+            "delta_from_frozen": -0.5516865079365079,
+            "negative_transfer": 0.9625
+          },
+          {
+            "participant": 3,
+            "overall": 0.32638888888888895,
+            "unseen": 0.23224206349206344,
+            "delta_from_original": -0.030158730158730163,
+            "delta_from_frozen": -0.3441468253968254,
+            "negative_transfer": 0.625
+          },
+          {
+            "participant": 4,
+            "overall": 0.40570684523809525,
+            "unseen": 0.3233866508440147,
+            "delta_from_original": -0.008589979266869784,
+            "delta_from_frozen": -0.24180666251164668,
+            "negative_transfer": 0.68125
+          },
+          {
+            "participant": 5,
+            "overall": 0.44279513888888894,
+            "unseen": 0.36408730158730157,
+            "delta_from_original": -0.038690476190476185,
+            "delta_from_frozen": -0.13660714285714284,
+            "negative_transfer": 0.55
+          }
+        ],
+        "overall": {
+          "mean": 0.37612289186507936,
+          "participant_bootstrap_95": [
+            0.3279947916666667,
+            0.4242509920634921
+          ]
+        },
+        "unseen": {
+          "mean": 0.2885351547744957,
+          "participant_bootstrap_95": [
+            0.23333333333333328,
+            0.34373697621565813
+          ]
+        },
+        "delta_from_original": {
+          "mean": -0.05658697894370157,
+          "participant_bootstrap_95": [
+            -0.11922123015873015,
+            -0.016115103497771385
+          ]
+        },
+        "delta_from_frozen": {
+          "mean": -0.3185617846755307,
+          "participant_bootstrap_95": [
+            -0.47421654658029255,
+            -0.18849206349206346
+          ]
+        },
+        "negative_transfer": {
+          "mean": 0.7046874999999999,
+          "participant_bootstrap_95": [
+            0.5828125000000001,
+            0.8781249999999999
+          ]
+        }
+      }
+    },
+    "identity_tie": {
+      "spatial_only": {
+        "case_changes_vs_original": {
+          "improved": 42,
+          "harmed": 20,
+          "tied": 578,
+          "denominator": 640,
+          "endpoint": "other-class trial accuracy; descriptive repeated cases"
+        },
+        "participants": [
+          {
+            "participant": 2,
+            "overall": 0.56015625,
+            "unseen": 0.4992063492063492,
+            "delta_from_original": 0.012103174603174604,
+            "delta_from_frozen": -0.28690476190476194,
+            "negative_transfer": 0.79375,
+            "identity_preferred": 9
+          },
+          {
+            "participant": 3,
+            "overall": 0.4640625,
+            "unseen": 0.3939484126984127,
+            "delta_from_original": 0.030952380952380953,
+            "delta_from_frozen": -0.18244047619047618,
+            "negative_transfer": 0.575,
+            "identity_preferred": 19
+          },
+          {
+            "participant": 4,
+            "overall": 0.5615749007936508,
+            "unseen": 0.5061657716585664,
+            "delta_from_original": 0.019636351808482954,
+            "delta_from_frozen": -0.05902754169709483,
+            "negative_transfer": 0.4625,
+            "identity_preferred": 17
+          },
+          {
+            "participant": 5,
+            "overall": 0.5621527777777777,
+            "unseen": 0.5033730158730159,
+            "delta_from_original": 0.009226190476190476,
+            "delta_from_frozen": 0.002678571428571441,
+            "negative_transfer": 0.35,
+            "identity_preferred": 19
+          }
+        ],
+        "overall": {
+          "mean": 0.5369866071428571,
+          "participant_bootstrap_95": [
+            0.4884406001984127,
+            0.5618638392857143
+          ]
+        },
+        "unseen": {
+          "mean": 0.47567338735908604,
+          "participant_bootstrap_95": [
+            0.42130456349206347,
+            0.5047693937657911
+          ]
+        },
+        "delta_from_original": {
+          "mean": 0.017979524460057246,
+          "participant_bootstrap_95": [
+            0.01066468253968254,
+            0.026240079365079366
+          ]
+        },
+        "delta_from_frozen": {
+          "mean": -0.13142355209094037,
+          "participant_bootstrap_95": [
+            -0.23467261904761907,
+            -0.02817448513426169
+          ]
+        },
+        "negative_transfer": {
+          "mean": 0.5453125,
+          "participant_bootstrap_95": [
+            0.40625,
+            0.7109375
+          ]
+        },
+        "identity_preferred_cases": 64
+      },
+      "spatial_gain": {
+        "case_changes_vs_original": {
+          "improved": 69,
+          "harmed": 35,
+          "tied": 536,
+          "denominator": 640,
+          "endpoint": "other-class trial accuracy; descriptive repeated cases"
+        },
+        "participants": [
+          {
+            "participant": 2,
+            "overall": 0.45980902777777777,
+            "unseen": 0.38323412698412695,
+            "delta_from_original": -9.920634920634885e-05,
+            "delta_from_frozen": -0.4028769841269841,
+            "negative_transfer": 0.89375,
+            "identity_preferred": 6
+          },
+          {
+            "participant": 3,
+            "overall": 0.3714409722222222,
+            "unseen": 0.2895833333333333,
+            "delta_from_original": 0.027182539682539687,
+            "delta_from_frozen": -0.2868055555555556,
+            "negative_transfer": 0.6,
+            "identity_preferred": 26
+          },
+          {
+            "participant": 4,
+            "overall": 0.4511656746031746,
+            "unseen": 0.3791809626635777,
+            "delta_from_original": 0.047204332552693205,
+            "delta_from_frozen": -0.1860123506920836,
+            "negative_transfer": 0.6375,
+            "identity_preferred": 41
+          },
+          {
+            "participant": 5,
+            "overall": 0.4971354166666666,
+            "unseen": 0.4264880952380953,
+            "delta_from_original": 0.02371031746031746,
+            "delta_from_frozen": -0.0742063492063492,
+            "negative_transfer": 0.50625,
+            "identity_preferred": 32
+          }
+        ],
+        "overall": {
+          "mean": 0.4448877728174603,
+          "participant_bootstrap_95": [
+            0.39353298611111115,
+            0.48564298115079363
+          ]
+        },
+        "unseen": {
+          "mean": 0.3696216295547833,
+          "participant_bootstrap_95": [
+            0.31299603174603174,
+            0.4146613120944659
+          ]
+        },
+        "delta_from_original": {
+          "mean": 0.024499495836586,
+          "participant_bootstrap_95": [
+            0.00672123015873016,
+            0.041330828779599274
+          ]
+        },
+        "delta_from_frozen": {
+          "mean": -0.23747530989524313,
+          "participant_bootstrap_95": [
+            -0.34866082576825896,
+            -0.12735615079365079
+          ]
+        },
+        "negative_transfer": {
+          "mean": 0.6593749999999999,
+          "participant_bootstrap_95": [
+            0.5390625,
+            0.8203125
+          ]
+        },
+        "identity_preferred_cases": 105
+      }
+    }
+  },
+  "search_seed_sensitivity": {
+    "spatial_only": {
+      "42": {
+        "participant_unseen": [
+          0.5694444444444444,
+          0.3333333333333333,
+          0.5416666666666666,
+          0.5753968253968254
+        ],
+        "mean": 0.5049603174603174
+      },
+      "43": {
+        "participant_unseen": [
+          0.621031746031746,
+          0.369047619047619,
+          0.5912698412698413,
+          0.6626984126984128
+        ],
+        "mean": 0.5610119047619049
+      },
+      "44": {
+        "participant_unseen": [
+          0.626984126984127,
+          0.38690476190476186,
+          0.6686507936507936,
+          0.5714285714285714
+        ],
+        "mean": 0.5634920634920635
+      }
+    },
+    "spatial_gain": {
+      "42": {
+        "participant_unseen": [
+          0.40674603174603174,
+          0.2996031746031746,
+          0.32539682539682535,
+          0.4126984126984127
+        ],
+        "mean": 0.36111111111111105
+      },
+      "43": {
+        "participant_unseen": [
+          0.363095238095238,
+          0.42460317460317454,
+          0.2777777777777778,
+          0.43849206349206343
+        ],
+        "mean": 0.37599206349206343
+      },
+      "44": {
+        "participant_unseen": [
+          0.40079365079365076,
+          0.26984126984126977,
+          0.31547619047619047,
+          0.4325396825396825
+        ],
+        "mean": 0.3546626984126984
+      }
+    }
+  },
+  "search_seed_ranges": {
+    "spatial_only": {
+      "cases": 32,
+      "mean_range": 0.12450396825396823,
+      "median_range": 0.015873015873015844,
+      "max_range": 0.6349206349206349,
+      "range_over10pp": 8
+    },
+    "spatial_gain": {
+      "cases": 32,
+      "mean_range": 0.1800595238095238,
+      "median_range": 0.1349206349206349,
+      "max_range": 0.6031746031746031,
+      "range_over10pp": 17
+    }
+  },
+  "identity_intervention_audit": {
+    "passed": true,
+    "initial_loss_equal_cases": 1280,
+    "nonintervened_checkpoints_identical": 1111
+  },
+  "scope": "Four independentparticipants; all80pairs fororderandties, onlypair1\u21922 forsearchseeds. All controls fixedbeforeinspectingcohortsummary; no winnerselection."
+}

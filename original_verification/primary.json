@@ -1,0 +1,83 @@
+{
+  "calibration_cases": 640,
+  "replayed_conditions": 3840,
+  "allclass_references": 80,
+  "predictions": 445653040,
+  "calibration_predictions": 5886096,
+  "cache_hashes": 1598,
+  "gain_mean_checks": 3840,
+  "passed": true,
+  "raw_reconstructions": [
+    "p2_s1_g08_r00",
+    "p2_s2_g08_r01",
+    "p3_s1_g08_r00",
+    "p3_s2_g08_r01",
+    "p4_s1_g08_r00",
+    "p4_s2_g08_r01",
+    "p5_s1_g08_r00",
+    "p5_s2_g08_r01"
+  ],
+  "wall_seconds": 414.8785314579727,
+  "participant_reports": [
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 960,
+      "allclass_references": 20,
+      "predictions": 120787744,
+      "calibration_predictions": 1627080,
+      "cache_hashes": 400,
+      "gain_mean_checks": 960,
+      "raw_reconstructions": [
+        "p2_s1_g08_r00",
+        "p2_s2_g08_r01"
+      ],
+      "wall_seconds": 409.9185954160057
+    },
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 960,
+      "allclass_references": 20,
+      "predictions": 122189536,
+      "calibration_predictions": 1573440,
+      "cache_hashes": 400,
+      "gain_mean_checks": 960,
+      "raw_reconstructions": [
+        "p3_s1_g08_r00",
+        "p3_s2_g08_r01"
+      ],
+      "wall_seconds": 411.99595254205633
+    },
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 960,
+      "allclass_references": 20,
+      "predictions": 99293600,
+      "calibration_predictions": 1294512,
+      "cache_hashes": 398,
+      "gain_mean_checks": 960,
+      "raw_reconstructions": [
+        "p4_s1_g08_r00",
+        "p4_s2_g08_r01"
+      ],
+      "wall_seconds": 353.7332891250262
+    },
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 960,
+      "allclass_references": 20,
+      "predictions": 103382160,
+      "calibration_predictions": 1391064,
+      "cache_hashes": 400,
+      "gain_mean_checks": 960,
+      "raw_reconstructions": [
+        "p5_s1_g08_r00",
+        "p5_s2_g08_r01"
+      ],
+      "wall_seconds": 366.67897995898966
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-10-22T02:34:29.552806+00:00",
+  "scope": "Post-review exploratory follow-up after original outcomes were known; not an independent confirmation or external preregistration",
+  "participants": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_session": 1,
+  "target_session": 2,
+  "pair_reason": "Same fixed pair used by the original search-seed sensitivity; no new outcome-driven pair selection",
+  "gestures": [
+    8,
+    9,
+    12,
+    13,
+    16,
+    21,
+    23,
+    24
+  ],
+  "variants": [
+    "identity_regularized",
+    "baseline_on",
+    "literal_mapping"
+  ],
+  "methods": [
+    "frozen",
+    "spatial_only",
+    "spatial_gain"
+  ],
+  "identity_objective": "Cross entropy plus mean squared physical parameter deviation from identity normalized by maximum allowed deviation, lambda=1; 16384 original candidates plus identity; 500 Adam updates at 0.01",
+  "parameter_selection": "One fixed weight selected by unit-scaled penalty convention, no hyperparameter sweep or selection on outcome",
+  "baseline_on": "Provider mapping retained; activate sqrt(max(RMS^2-rest_mean_square,0)); retrain source with original settings",
+  "literal_mapping": "Use original upstream get_images, including first-row removal and time reversal in segmentation and frame extraction; subtraction remains inactive; retrain source",
+  "source_epochs": 15,
+  "seed": 42,
+  "scoring": "rep0 calibration only; other reps held out; preserve original trial identities; separate frozen reference within each preprocessing variant",
+  "retention": "All participants, gestures and variants retained regardless of result; no changes to original files",
+  "verification": "Reload every adapted checkpoint; predict with batch257 vs1024; exact frame agreement; compare trial votes; no frozen classifier/buffer changes in regularized variant",
+  "code_sha256": "5594210412c2e17bd5d53e2606efd6c4050ab130192bcb7a4c9bd5efaea0f2dc"
+}

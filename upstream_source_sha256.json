@@ -1,0 +1,13 @@
+{
+  "revision": "7c5a075a58dff06566b82965f8235ba744377fb8",
+  "files": {
+    "networks.py": "5221102d7b335365472dbec9fc04da81e1a188d89f3521f5853ad38d1b0b1546",
+    "networks_utils.py": "768bf4ecf580104c60e1d284673eeb09bff082a8a11fb759e80c3b25acebb5b0",
+    "tensorize_emg.py": "449d0298ca38f03895126544f6aba554912f7d91c9608a368b62c8481510c424",
+    "emg_processing.py": "7aaf9b177fb4864a14971526a342911e0f1d5a2e83bc07dc513865206dc2115e",
+    "sal_classification/deep_learning.py": "b310db0ec4c1915f994f5af73cceca17f2809ea02ef31dda3f5f2edbe09951b9",
+    "sal_classification/intersession_new.py": "05168a2c26f8cf71cdd830124a4054ef9736efd40c41e62e36b95ed124a6cac8",
+    "sal_classification/exp-base.json": "7d02b9bd0c57b4ed244dcefc558bc184a28a27598ac9fe6740a990a674c0f32c",
+    "sal_classification/create_conditions.py": "5b6678ddb6fe8e595d04ef4a440d292bb0542e55cc4c539896033c59a1867981"
+  }
+}

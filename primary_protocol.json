@@ -1,0 +1,171 @@
+{
+  "timestamp": "2026-09-07T02:44:52.065506+00:00",
+  "scope": "Independent participant evaluation; exploratory development subject1 excluded",
+  "participants": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "sessions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      4
+    ]
+  ],
+  "gestures": [
+    8,
+    9,
+    12,
+    13,
+    16,
+    21,
+    23,
+    24
+  ],
+  "seed": 42,
+  "source": "All available2..10actualrepetitions perselectedclass, separate sourceparticipant/session; original15epochrecipe",
+  "calibration": "rep0 exactlyoneclass; all8choices equally evaluated",
+  "scoring": "All actualreps withzero-basedindex>0 in target; up to72trials, all8classes; identicalsets acrossmethods/budgets/choices. Trial-weighted accuracy with actualdenominators and classcounts disclosed.",
+  "methods": [
+    "frozen",
+    "gain_only",
+    "spatial_only",
+    "spatial_gain",
+    "classifier_fine",
+    "classifier_fine_gain"
+  ],
+  "reference": "classifier_fine from all8 rep0 trials; same150epochs, moreupdates; contextual reference not data-only causal ablation",
+  "endpoints": [
+    "primary: accuracy on the7 classes absent from calibration",
+    "secondary: overall majority-vote trial accuracy",
+    "negative transfer: trialaccuracy strictly below frozen",
+    "conditional negative transfer when calibrationframeaccuracy>=.99",
+    "all calibration-gesture choices, no test-oracle selection"
+  ],
+  "comparisons": [
+    "gain_only minus frozen",
+    "spatial_gain minus gain_only",
+    "spatial_only minus frozen",
+    "spatial-gain factorial interaction",
+    "singleclass fine vs allclass reference; no newarchitectureclaim"
+  ],
+  "aggregation": "Average all8gesturechoices within20pairs withinparticipant; four independent participant summaries, all disclosed. Paired effect and participant bootstrap95%interval (10000resamples seed2026) descriptive withn4; no window-level significance, no population/clinicalclaim",
+  "quality": "Stop on malformed/missing/duplicate/nonfinite rawtrials before training; record exact issue and outcome-blind resolution. Do not fill duplicates or omit failed models.",
+  "limits": "One public dataset,8authorselectedclasses,4held-outparticipants,single seed,offline natural session variation (not controlled electrode displacement). 3s labeled plus90s targetrest; fullclassreference24s labeled plus90srest.",
+  "hypothesis": "Separate gain correction from spatial alignment and test transfer beyond calibratedclass. No method required towin; no parameter changes afterfinaloutcomes.",
+  "reuse": "Unchanged June2025authorcomponents, correctedprovidergeometry and batched-search numericalvalidation, fixedsettings; oldnegativeexperimentsretained",
+  "scripts": {
+    "csl_author_recipe.py": "837b8166e4790662fb816ee8073fc6328e701539d24e77f0e7577c3c8ca51456",
+    "csl_search_batch.py": "9d8d1f6902b64d04e094f6da9875f953f5e48d929fa6094e8fe9ce1bb4cd44ab",
+    "csl_component_study.py": "b8d365d71df39df74f2d36e3b7e10be24bacbfd9187751b46f8ae310fde7c928",
+    "csl_confirmatory.py": "d3f08c36630128ca1f34d21f82b8da53d77dae937400f1e1f05557d9ab58c117",
+    "verify_csl_author_recipe.py": "0bc3c6242c7f78815ffab793ff13bbfe259bfb7c8eccc85f84a0d1f250b4f3af"
+  },
+  "author_source": {
+    "revision": "7c5a075a58dff06566b82965f8235ba744377fb8",
+    "files": {
+      "networks.py": "5221102d7b335365472dbec9fc04da81e1a188d89f3521f5853ad38d1b0b1546",
+      "networks_utils.py": "768bf4ecf580104c60e1d284673eeb09bff082a8a11fb759e80c3b25acebb5b0",
+      "tensorize_emg.py": "449d0298ca38f03895126544f6aba554912f7d91c9608a368b62c8481510c424",
+      "emg_processing.py": "7aaf9b177fb4864a14971526a342911e0f1d5a2e83bc07dc513865206dc2115e",
+      "sal_classification/deep_learning.py": "b310db0ec4c1915f994f5af73cceca17f2809ea02ef31dda3f5f2edbe09951b9",
+      "sal_classification/intersession_new.py": "05168a2c26f8cf71cdd830124a4054ef9736efd40c41e62e36b95ed124a6cac8",
+      "sal_classification/exp-base.json": "7d02b9bd0c57b4ed244dcefc558bc184a28a27598ac9fe6740a990a674c0f32c",
+      "sal_classification/create_conditions.py": "5b6678ddb6fe8e595d04ef4a440d292bb0542e55cc4c539896033c59a1867981"
+    }
+  },
+  "execution_amendment": {
+    "timestamp": "2026-09-07T02:50:29.529592+00:00",
+    "reason": "Computational-only execution amendment before any reserved-participant model training or scoring: four CPU workers read frozen code/data and write disjoint participant run directories; coordinator writes aggregate. No concurrent repository editing, statistical design, seeds, methods or optimization changes.",
+    "previous_protocol_sha256": "7723e8203b22422923eeec40f7d7d48c1426f2be37228ef501b727114f03300a"
+  },
+  "missing_data_amendment": {
+    "timestamp": "2026-09-07T02:51:36.923742+00:00",
+    "reason": "Before any reserved model training/scoring, raw QC found subject4/session4/gest8 has9actualrepetitions. Preserve all actualtrials; never duplicatefill. General rule require2..10actualrepetitions perselectedclass, rep0calibration, allremainingrepsscore. Sameavailabletrialidentities acrossmethods/budgets. Recordcounts and retain failure. No model/hyperparameter changes.",
+    "failed_log": "preprocessing_v1_failed.log"
+  }
+}

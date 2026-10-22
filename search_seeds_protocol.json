@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-09-07T02:59:13.692861+00:00",
+  "participants": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "pair": [
+    1,
+    2
+  ],
+  "gestures": [
+    8,
+    9,
+    12,
+    13,
+    16,
+    21,
+    23,
+    24
+  ],
+  "search_seeds": [
+    43,
+    44
+  ],
+  "reference_seed": 42,
+  "methods": [
+    "spatial_only",
+    "spatial_gain"
+  ],
+  "unchanged": "Reuse each primary source checkpoint and all data/splits/hyperparameters. Only Latin-hypercube seed changes; all seeds retained, no selection.",
+  "purpose": "Assess whether the component result depends on one arbitrary spatial-search seed. Single predeterminedpair limits scope. Supplementary sensitivity, not independentparticipants.",
+  "frozen_before": "No primary cohort score summaries inspected; training in progress. No dependence on any finalmetric.",
+  "script_sha256": "1799cc1c60f372842f3c52455d02f7bd13519687da6edd1ddff2da208dcafeb7",
+  "primary_protocol_sha256": "f24e59524607a6c6b8739bb05097f55c7c68e22c9c411c83a732a04495a55606"
+}

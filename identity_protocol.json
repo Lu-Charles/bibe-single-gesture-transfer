@@ -1,0 +1,36 @@
+{
+  "timestamp": "2026-09-07T03:25:26.284085+00:00",
+  "participants": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "sessions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "gestures": [
+    8,
+    9,
+    12,
+    13,
+    16,
+    21,
+    23,
+    24
+  ],
+  "methods": [
+    "frozen",
+    "spatial_only",
+    "spatial_gain"
+  ],
+  "change": "Onlyinitialcandidate tie-breaking: whenexistingidentitycandidatehasEXACT minimumfloat32calibrationloss, chooseit. Otherwisechooseoriginalfirstargmin. No tolerance, no newcandidate, no earlystop orchangedtraining.",
+  "purpose": "Test the sourcecode identity-last/firstargmin behavior when numerous transforms tie. Minimal implementation intervention, not anewSALarchitecture orclaimthatidentityalwaysbest.",
+  "frozen_before": "No primary cohortperformance summaries inspected; settings based onauthorcode anddevelopment only. Reportall80pairs\u00d78choiceswithoutselection.",
+  "script_sha256": "d91b22ae3cb0c38b483698b029a6b4c49b04a037d69019ca3fa8cca6ae737b60",
+  "primary_protocol_sha256": "f24e59524607a6c6b8739bb05097f55c7c68e22c9c411c83a732a04495a55606"
+}

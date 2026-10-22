@@ -1,0 +1,83 @@
+{
+  "calibration_cases": 640,
+  "replayed_conditions": 1280,
+  "allclass_references": 0,
+  "predictions": 145519360,
+  "calibration_predictions": 1962032,
+  "cache_hashes": 1598,
+  "gain_mean_checks": 1280,
+  "passed": true,
+  "raw_reconstructions": [
+    "p2_s1_g08_r00",
+    "p2_s2_g08_r01",
+    "p3_s1_g08_r00",
+    "p3_s2_g08_r01",
+    "p4_s1_g08_r00",
+    "p4_s2_g08_r01",
+    "p5_s1_g08_r00",
+    "p5_s2_g08_r01"
+  ],
+  "wall_seconds": 402.6751338749891,
+  "participant_reports": [
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 320,
+      "allclass_references": 0,
+      "predictions": 39440896,
+      "calibration_predictions": 542360,
+      "cache_hashes": 400,
+      "gain_mean_checks": 320,
+      "raw_reconstructions": [
+        "p2_s1_g08_r00",
+        "p2_s2_g08_r01"
+      ],
+      "wall_seconds": 396.74909233290236
+    },
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 320,
+      "allclass_references": 0,
+      "predictions": 39898624,
+      "calibration_predictions": 524480,
+      "cache_hashes": 400,
+      "gain_mean_checks": 320,
+      "raw_reconstructions": [
+        "p3_s1_g08_r00",
+        "p3_s2_g08_r01"
+      ],
+      "wall_seconds": 399.05576454207767
+    },
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 320,
+      "allclass_references": 0,
+      "predictions": 32422400,
+      "calibration_predictions": 431504,
+      "cache_hashes": 398,
+      "gain_mean_checks": 320,
+      "raw_reconstructions": [
+        "p4_s1_g08_r00",
+        "p4_s2_g08_r01"
+      ],
+      "wall_seconds": 356.13213400007226
+    },
+    {
+      "passed": true,
+      "calibration_cases": 160,
+      "replayed_conditions": 320,
+      "allclass_references": 0,
+      "predictions": 33757440,
+      "calibration_predictions": 463688,
+      "cache_hashes": 400,
+      "gain_mean_checks": 320,
+      "raw_reconstructions": [
+        "p5_s1_g08_r00",
+        "p5_s2_g08_r01"
+      ],
+      "wall_seconds": 364.1872477500001
+    }
+  ]
+}

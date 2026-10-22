@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "cases": 64,
+  "conditions": 192,
+  "predictions": 20998272,
+  "participant_reports": [
+    {
+      "participant": 2,
+      "cases": 16,
+      "conditions": 48,
+      "predictions": 5929008,
+      "passed": true
+    },
+    {
+      "participant": 3,
+      "cases": 16,
+      "conditions": 48,
+      "predictions": 5735904,
+      "passed": true
+    },
+    {
+      "participant": 4,
+      "cases": 16,
+      "conditions": 48,
+      "predictions": 4620192,
+      "passed": true
+    },
+    {
+      "participant": 5,
+      "cases": 16,
+      "conditions": 48,
+      "predictions": 4713168,
+      "passed": true
+    }
+  ],
+  "wall_seconds": 44.450437832972966
+}

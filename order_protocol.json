@@ -1,0 +1,42 @@
+{
+  "timestamp": "2026-09-07T03:21:15.604755+00:00",
+  "participants": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "source_sessions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "target_sessions": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "gestures": [
+    8,
+    9,
+    12,
+    13,
+    16,
+    21,
+    23,
+    24
+  ],
+  "methods": [
+    "spatial_only",
+    "spatial_gain"
+  ],
+  "change": "Warp rawamplitudes beforeBN, applygain afterwardin alignedcoordinates. Sameclassifiercheckpoints, splits,bounds,searchseed42,16384candidates,500updates,learningrate andinterpolationmodes asprimary.",
+  "purpose": "Implementation-order sensitivity, motivated by a synthetic reconstruction check and source audit. Does not establish a newregistrationalgorithm; compares two orderingchanges, notgainorderalone.",
+  "frozen_before": "No primarycohortperformance summaries inspected. No method/hyperparameter selectedfromfinalscores. All80pairsandall8calchoices retained.",
+  "script_sha256": "363f417f6b11dab7ef88df9d981b95cd897abdbe66497af956687abf5dbeefd1",
+  "primary_protocol_sha256": "f24e59524607a6c6b8739bb05097f55c7c68e22c9c411c83a732a04495a55606"
+}

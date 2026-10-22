@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "primary_records": 3840,
+  "control_records": 3392,
+  "independent_participants": 4,
+  "scope": "Analysis reproduction from included case records; no raw-data or checkpoint replay."
+}
