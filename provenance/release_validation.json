@@ -8,7 +8,7 @@
   "original_method_cases": 3840,
   "control_records": 3392,
   "followup_records": 288,
-  "scope": "Three scripts executed in bundled Python; no claim of complete raw-data reproduction",
+  "scope": "Three analysis scripts executed with Python 3.12.14; no claim of complete raw-data reproduction",
   "personal_absolute_path_scan_passed": true,
   "optional_figure_generation_passed": true,
   "repository_layout_validation": {
@@ -25,5 +25,11 @@
     "matplotlib": "3.11.1",
     "numerical_records_unchanged": true,
     "regenerated_pngs_pixel_identical": true
+  },
+  "submission_review_validation": {
+    "review_date": "2026-10-26",
+    "three_reproduction_checks_passed": true,
+    "scientific_inputs_code_and_figures_unchanged": true,
+    "editable_submission_files_excluded": true
   }
 }

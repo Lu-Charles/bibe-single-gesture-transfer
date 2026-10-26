@@ -4,7 +4,7 @@ Analysis code and results accompanying **Cross Gesture Transfer After Single Ges
 
 The study evaluates gain correction, spatial adaptation, and classifier fine-tuning across recording sessions in CSL-HDEMG. Across four evaluation participants, spatial adaptation with gain achieved 96.99% accuracy on held-out trials of the calibrated gesture, but 34.51% on the other seven gestures, compared with 60.71% for frozen models. This repository provides the numerical records, analysis scripts, and figures for that evaluation.
 
-The [manuscript](paper/manuscript.pdf) and [supplement](paper/supplement.pdf) describe the methods and results. Editable Word versions are included in the same directory.
+The [manuscript](paper/manuscript.pdf) and [supplement](paper/supplement.pdf) describe the methods and results.
 
 ## Installation
 
@@ -51,7 +51,7 @@ scripts/                Analysis, plotting, and follow-up scripts
 src/original_pipeline/  Archived training and verification source
 provenance/             Environment, upstream hashes, and verification records
 figures/                Manuscript and supplementary figures
-paper/                  Manuscript and supplement in PDF and Word formats
+paper/                  Manuscript and supplement in PDF format
 ```
 
 ## Data and experimental design
